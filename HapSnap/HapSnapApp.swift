@@ -7,11 +7,18 @@
 
 import SwiftUI
 
+class AppSettings: ObservableObject {
+	@Published var hapticEvents = [HapticEvent]()
+}
+
 @main
 struct HapSnapApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	@StateObject var settings = AppSettings()
+
+	var body: some Scene {
+		WindowGroup {
+			MainView()
+				.environmentObject(settings)
+		}
+	}
 }

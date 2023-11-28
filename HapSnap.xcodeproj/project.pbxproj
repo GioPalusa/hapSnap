@@ -11,6 +11,10 @@
 		A47027312B16593E0093D304 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47027302B16593E0093D304 /* ContentView.swift */; };
 		A47027332B16593F0093D304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47027322B16593F0093D304 /* Assets.xcassets */; };
 		A47027362B16593F0093D304 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47027352B16593F0093D304 /* Preview Assets.xcassets */; };
+		A470273D2B1662380093D304 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470273C2B1662380093D304 /* Models.swift */; };
+		A470273F2B1663480093D304 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470273E2B1663480093D304 /* SettingsView.swift */; };
+		A47027412B16635C0093D304 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47027402B16635C0093D304 /* MainView.swift */; };
+		A47027432B16839E0093D304 /* HapticEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47027422B16839E0093D304 /* HapticEventView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A47027302B16593E0093D304 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A47027322B16593F0093D304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47027352B16593F0093D304 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A470273C2B1662380093D304 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A470273E2B1663480093D304 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A47027402B16635C0093D304 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A47027422B16839E0093D304 /* HapticEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticEventView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				A47027302B16593E0093D304 /* ContentView.swift */,
 				A47027322B16593F0093D304 /* Assets.xcassets */,
 				A47027342B16593F0093D304 /* Preview Content */,
+				A470273C2B1662380093D304 /* Models.swift */,
+				A470273E2B1663480093D304 /* SettingsView.swift */,
+				A47027402B16635C0093D304 /* MainView.swift */,
+				A47027422B16839E0093D304 /* HapticEventView.swift */,
 			);
 			path = HapSnap;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47027432B16839E0093D304 /* HapticEventView.swift in Sources */,
+				A470273D2B1662380093D304 /* Models.swift in Sources */,
+				A470273F2B1663480093D304 /* SettingsView.swift in Sources */,
 				A47027312B16593E0093D304 /* ContentView.swift in Sources */,
+				A47027412B16635C0093D304 /* MainView.swift in Sources */,
 				A470272F2B16593E0093D304 /* HapSnapApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
